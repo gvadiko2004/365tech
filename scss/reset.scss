@@ -14,7 +14,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   transition: 0.4s ease-in-out;
-
+  font-family: var(--font-family);
   font-family: "Poppins";
 }
 
@@ -101,7 +101,6 @@ a {
   background-color: #fff;
   padding: 16px 20px;
 
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   color: var(----primary);
@@ -157,7 +156,6 @@ a {
 
   padding: 16px 20px;
 
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -219,7 +217,6 @@ a {
   gap: 10px;
 
   p {
-    font-family: var(--font-family);
     font-weight: 300;
     font-size: 16px;
     color: #171717;
@@ -235,7 +232,6 @@ a {
 }
 
 .section-title {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: clamp(1.5rem, 0.875rem + 2.27vw, 2.75rem);
   color: #171717;

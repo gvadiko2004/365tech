@@ -1,6 +1,6 @@
 .form {
   &__title {
-    font-family: var(--font-family);
+    
     font-weight: 600;
     font-size: clamp(2rem, 1.45rem + 2vw, 3.25rem);
     line-height: 135%;
@@ -161,7 +161,7 @@
   }
 
   p {
-    font-family: var(--font-family);
+    
     font-weight: 400;
     font-size: 13px;
     color: #0d0d0d;
@@ -236,7 +236,7 @@
     gap: 12px;
 
     a {
-      font-family: var(--font-family);
+      
       font-weight: 400;
       font-size: 14px;
       letter-spacing: -0.01em;
@@ -257,7 +257,7 @@
 }
 
 .form__info_list-title {
-  font-family: var(--font-family);
+  
   font-weight: 400;
   font-size: 18px;
   color: #fff;
@@ -274,7 +274,7 @@
   position: absolute;
   bottom: 30px;
 
-  font-family: var(--font-family);
+  
   font-weight: 400;
   font-size: clamp(0.875rem, 0.765rem + 0.4vw, 1.125rem);
   color: #fff;

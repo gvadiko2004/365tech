@@ -53,7 +53,7 @@
   // .hero__title
 
   &__title {
-    font-family: var(--font-family);
+    
     font-weight: 500;
     font-size: clamp(1.75rem, 1.125rem + 2.27vw, 3rem);
 
@@ -91,7 +91,7 @@
     // bottom: 40px;
 
     max-width: 484px;
-    font-family: var(--font-family);
+    
     font-weight: 400;
     font-size: 14px;
     color: #fff;

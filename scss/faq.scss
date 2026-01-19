@@ -10,7 +10,7 @@
     max-width: 920px !important;
   }
   &__title {
-    font-family: var(--font-family);
+    
     font-weight: 500;
     font-size: clamp(2rem, 1.67rem + 1.2vw, 2.75rem);
     line-height: 135%;
@@ -29,7 +29,7 @@
   }
 
   &__subtitle {
-    font-family: var(--font-family);
+    
     font-weight: 300;
     font-size: clamp(0.875rem, 0.765rem + 0.4vw, 1.125rem);
     line-height: 165%;
