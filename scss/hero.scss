@@ -1,0 +1,115 @@
+.hero {
+  margin: 42px 0 0 0;
+
+  @media (max-width: 440px) {
+    margin: 20px 0 0 0;
+  }
+  // .hero__inner
+
+  &__inner {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 42px;
+    border-radius: 52px;
+
+    width: 100%;
+    height: calc(100vh - 84px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+    position: relative;
+    flex-direction: column;
+
+    text-align: center;
+
+    @media (max-width: 440px) {
+      padding: 24px 16px;
+      border-radius: 24px;
+      height: 80vh;
+
+      display: block;
+    }
+
+    .content {
+      margin-left: 34px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      @media (max-width: 440px) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  // .hero__title
+
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: clamp(1.75rem, 1.125rem + 2.27vw, 3rem);
+
+    max-width: 772px;
+    color: #fff;
+
+    @media (max-width: 860px) {
+      margin: 72px 0 0 0;
+    }
+
+    @media (max-width: 440px) {
+      margin-bottom: 18px;
+    }
+
+    span {
+      background: linear-gradient(90deg, #2c4bff 0%, #8496ff 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .btn-static-white {
+    @media (max-width: 440px) {
+      position: absolute;
+      bottom: 24px;
+    }
+  }
+
+  // .hero__subtitle
+
+  &__subtitle {
+    // position: absolute;
+    // right: 40px;
+    // bottom: 40px;
+
+    max-width: 484px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    line-height: 165%;
+
+    margin: 14px 0 26px 0;
+
+    @media (max-width: 1280px) {
+      margin: 10px 0 20px 0;
+    }
+
+    @media (max-width: 440px) {
+      position: static;
+      margin: 0;
+      margin-bottom: 32px;
+
+      max-width: 300px;
+      font-size: 14px;
+    }
+  }
+}

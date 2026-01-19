@@ -1,0 +1,6 @@
+.process__inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2.2fr;
+  grid-template-columns: 1fr 2.2fr;
+}

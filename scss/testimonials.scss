@@ -1,0 +1,144 @@
+.testimonials {
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 2.2fr;
+    gap: 60px;
+
+    @media (max-width: 1280px) {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    @media (max-width: 1280px) {
+      gap: 30px;
+    }
+  }
+}
+
+.testimonials {
+  // .testimonials__inner
+
+  &__inner {
+  }
+}
+
+.about {
+  // .about__title
+
+  &__title {
+  }
+}
+
+.swiper {
+  @media (max-width: 1280px) {
+    max-width: 1200px;
+  }
+
+  @media (max-width: 440px) {
+    max-width: 440px;
+  }
+}
+
+.swiper-testimonials-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.swiper-testimonials-item-range {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.swiper-testimonials-item-range-item {
+}
+.swiper-testimonials-item-subtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: clamp(0.875rem, 0.792rem + 0.3vw, 1.063rem);
+  line-height: 190%;
+  color: #5c5c5c;
+
+  margin: 18px 0 42px 0;
+}
+.swiper-testimonials-item-user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.swiper-testimonials-item-user-content-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: clamp(1rem, 0.89rem + 0.4vw, 1.25rem);
+  color: var(----primary);
+}
+.swiper-testimonials-item-user-contentmuted {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: clamp(0.813rem, 0.73rem + 0.3vw, 1rem);
+  color: #717276;
+}
+
+.swiper-testimonials {
+  overflow: visible;
+  position: relative;
+  z-index: 3;
+}
+
+.testimonials__inner .start {
+  position: relative;
+  z-index: 5;
+}
+
+.testimonials__inner .end {
+  overflow: hidden;
+
+  @media (max-width: 1080px) {
+    overflow: visible;
+  }
+}
+
+.swiper-testimonials .swiper-slide-prev {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  transition: 0.4s ease-in-out !important;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 20px;
+}
+
+.btn-prev {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.btn-next {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(180deg, #1c2b82 0%, #566fff 100%);
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
