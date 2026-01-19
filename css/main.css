@@ -248,7 +248,9 @@ a {
 .swiper {
   width: 100%;
   max-width: 868px;
-  height: auto;
+  height: -webkit-max-content !important;
+  height: -moz-max-content !important;
+  height: max-content !important;
 }
 
 .btn-static-purple .icon {

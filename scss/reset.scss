@@ -249,7 +249,7 @@ a {
 .swiper {
   width: 100%;
   max-width: 868px;
-  height: auto;
+  height: max-content !important;
 }
 
 .btn-static-purple .icon {
